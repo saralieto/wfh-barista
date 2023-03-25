@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		616109D729CE722100A4A013 /* wfh_baristaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109D629CE722100A4A013 /* wfh_baristaApp.swift */; };
+		616109D929CE722100A4A013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109D829CE722100A4A013 /* ContentView.swift */; };
+		616109DB29CE722600A4A013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616109DA29CE722600A4A013 /* Assets.xcassets */; };
+		616109DE29CE722600A4A013 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616109DD29CE722600A4A013 /* Preview Assets.xcassets */; };
+		616109E829CE722600A4A013 /* wfh_baristaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109E729CE722600A4A013 /* wfh_baristaTests.swift */; };
+		616109F229CE722600A4A013 /* wfh_baristaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109F129CE722600A4A013 /* wfh_baristaUITests.swift */; };
+		616109F429CE722600A4A013 /* wfh_baristaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109F329CE722600A4A013 /* wfh_baristaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		616109E429CE722600A4A013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616109CB29CE722100A4A013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616109D229CE722100A4A013;
+			remoteInfo = "wfh-barista";
+		};
+		616109EE29CE722600A4A013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 616109CB29CE722100A4A013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616109D229CE722100A4A013;
+			remoteInfo = "wfh-barista";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		616109D329CE722100A4A013 /* wfh-barista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wfh-barista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616109D629CE722100A4A013 /* wfh_baristaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wfh_baristaApp.swift; sourceTree = "<group>"; };
+		616109D829CE722100A4A013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		616109DA29CE722600A4A013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		616109DD29CE722600A4A013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		616109E329CE722600A4A013 /* wfh-baristaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wfh-baristaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616109E729CE722600A4A013 /* wfh_baristaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wfh_baristaTests.swift; sourceTree = "<group>"; };
+		616109ED29CE722600A4A013 /* wfh-baristaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wfh-baristaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		616109F129CE722600A4A013 /* wfh_baristaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wfh_baristaUITests.swift; sourceTree = "<group>"; };
+		616109F329CE722600A4A013 /* wfh_baristaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wfh_baristaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		616109D029CE722100A4A013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616109E029CE722600A4A013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616109EA29CE722600A4A013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		616109CA29CE722100A4A013 = {
+			isa = PBXGroup;
+			children = (
+				616109D529CE722100A4A013 /* wfh-barista */,
+				616109E629CE722600A4A013 /* wfh-baristaTests */,
+				616109F029CE722600A4A013 /* wfh-baristaUITests */,
+				616109D429CE722100A4A013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		616109D429CE722100A4A013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				616109D329CE722100A4A013 /* wfh-barista.app */,
+				616109E329CE722600A4A013 /* wfh-baristaTests.xctest */,
+				616109ED29CE722600A4A013 /* wfh-baristaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		616109D529CE722100A4A013 /* wfh-barista */ = {
+			isa = PBXGroup;
+			children = (
+				616109D629CE722100A4A013 /* wfh_baristaApp.swift */,
+				616109D829CE722100A4A013 /* ContentView.swift */,
+				616109DA29CE722600A4A013 /* Assets.xcassets */,
+				616109DC29CE722600A4A013 /* Preview Content */,
+			);
+			path = "wfh-barista";
+			sourceTree = "<group>";
+		};
+		616109DC29CE722600A4A013 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				616109DD29CE722600A4A013 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		616109E629CE722600A4A013 /* wfh-baristaTests */ = {
+			isa = PBXGroup;
+			children = (
+				616109E729CE722600A4A013 /* wfh_baristaTests.swift */,
+			);
+			path = "wfh-baristaTests";
+			sourceTree = "<group>";
+		};
+		616109F029CE722600A4A013 /* wfh-baristaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				616109F129CE722600A4A013 /* wfh_baristaUITests.swift */,
+				616109F329CE722600A4A013 /* wfh_baristaUITestsLaunchTests.swift */,
+			);
+			path = "wfh-baristaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		616109D229CE722100A4A013 /* wfh-barista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616109F729CE722600A4A013 /* Build configuration list for PBXNativeTarget "wfh-barista" */;
+			buildPhases = (
+				616109CF29CE722100A4A013 /* Sources */,
+				616109D029CE722100A4A013 /* Frameworks */,
+				616109D129CE722100A4A013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wfh-barista";
+			productName = "wfh-barista";
+			productReference = 616109D329CE722100A4A013 /* wfh-barista.app */;
+			productType = "com.apple.product-type.application";
+		};
+		616109E229CE722600A4A013 /* wfh-baristaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616109FA29CE722600A4A013 /* Build configuration list for PBXNativeTarget "wfh-baristaTests" */;
+			buildPhases = (
+				616109DF29CE722600A4A013 /* Sources */,
+				616109E029CE722600A4A013 /* Frameworks */,
+				616109E129CE722600A4A013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616109E529CE722600A4A013 /* PBXTargetDependency */,
+			);
+			name = "wfh-baristaTests";
+			productName = "wfh-baristaTests";
+			productReference = 616109E329CE722600A4A013 /* wfh-baristaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		616109EC29CE722600A4A013 /* wfh-baristaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 616109FD29CE722600A4A013 /* Build configuration list for PBXNativeTarget "wfh-baristaUITests" */;
+			buildPhases = (
+				616109E929CE722600A4A013 /* Sources */,
+				616109EA29CE722600A4A013 /* Frameworks */,
+				616109EB29CE722600A4A013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				616109EF29CE722600A4A013 /* PBXTargetDependency */,
+			);
+			name = "wfh-baristaUITests";
+			productName = "wfh-baristaUITests";
+			productReference = 616109ED29CE722600A4A013 /* wfh-baristaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		616109CB29CE722100A4A013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					616109D229CE722100A4A013 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					616109E229CE722600A4A013 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 616109D229CE722100A4A013;
+					};
+					616109EC29CE722600A4A013 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 616109D229CE722100A4A013;
+					};
+				};
+			};
+			buildConfigurationList = 616109CE29CE722100A4A013 /* Build configuration list for PBXProject "wfh-barista" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 616109CA29CE722100A4A013;
+			productRefGroup = 616109D429CE722100A4A013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616109D229CE722100A4A013 /* wfh-barista */,
+				616109E229CE722600A4A013 /* wfh-baristaTests */,
+				616109EC29CE722600A4A013 /* wfh-baristaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		616109D129CE722100A4A013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616109DE29CE722600A4A013 /* Preview Assets.xcassets in Resources */,
+				616109DB29CE722600A4A013 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616109E129CE722600A4A013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616109EB29CE722600A4A013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		616109CF29CE722100A4A013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616109D929CE722100A4A013 /* ContentView.swift in Sources */,
+				616109D729CE722100A4A013 /* wfh_baristaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616109DF29CE722600A4A013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616109E829CE722600A4A013 /* wfh_baristaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		616109E929CE722600A4A013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				616109F229CE722600A4A013 /* wfh_baristaUITests.swift in Sources */,
+				616109F429CE722600A4A013 /* wfh_baristaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		616109E529CE722600A4A013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616109D229CE722100A4A013 /* wfh-barista */;
+			targetProxy = 616109E429CE722600A4A013 /* PBXContainerItemProxy */;
+		};
+		616109EF29CE722600A4A013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 616109D229CE722100A4A013 /* wfh-barista */;
+			targetProxy = 616109EE29CE722600A4A013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		616109F529CE722600A4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		616109F629CE722600A4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		616109F829CE722600A4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wfh-barista/Preview Content\"";
+				DEVELOPMENT_TEAM = 8X93NNEVPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slieto.wfh-barista";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		616109F929CE722600A4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wfh-barista/Preview Content\"";
+				DEVELOPMENT_TEAM = 8X93NNEVPZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slieto.wfh-barista";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		616109FB29CE722600A4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X93NNEVPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slieto.wfh-baristaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wfh-barista.app/wfh-barista";
+			};
+			name = Debug;
+		};
+		616109FC29CE722600A4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X93NNEVPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slieto.wfh-baristaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wfh-barista.app/wfh-barista";
+			};
+			name = Release;
+		};
+		616109FE29CE722600A4A013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X93NNEVPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slieto.wfh-baristaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wfh-barista";
+			};
+			name = Debug;
+		};
+		616109FF29CE722600A4A013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8X93NNEVPZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "slieto.wfh-baristaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "wfh-barista";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		616109CE29CE722100A4A013 /* Build configuration list for PBXProject "wfh-barista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616109F529CE722600A4A013 /* Debug */,
+				616109F629CE722600A4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616109F729CE722600A4A013 /* Build configuration list for PBXNativeTarget "wfh-barista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616109F829CE722600A4A013 /* Debug */,
+				616109F929CE722600A4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616109FA29CE722600A4A013 /* Build configuration list for PBXNativeTarget "wfh-baristaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616109FB29CE722600A4A013 /* Debug */,
+				616109FC29CE722600A4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		616109FD29CE722600A4A013 /* Build configuration list for PBXNativeTarget "wfh-baristaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				616109FE29CE722600A4A013 /* Debug */,
+				616109FF29CE722600A4A013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 616109CB29CE722100A4A013 /* Project object */;
+}
