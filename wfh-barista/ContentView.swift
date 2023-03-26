@@ -1,16 +1,9 @@
-//
-//  ContentView.swift
-//  wfh-barista
-//
-//  Created by Sara Lieto on 3/24/23.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        let vm = ModeViewModel(greetingText: "Choose a mode!", buttonOne: ("Barista", {}), buttonTwo: ("Patron", {}))
+        ModeView(viewModel: vm)
     }
 }
 

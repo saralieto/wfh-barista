@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6112C8E429D1097200DD7781 /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112C8E329D1097200DD7781 /* ModeView.swift */; };
+		6112C8E829D10C9E00DD7781 /* CurrentOrdersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112C8E729D10C9E00DD7781 /* CurrentOrdersDataSource.swift */; };
 		616109D729CE722100A4A013 /* wfh_baristaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109D629CE722100A4A013 /* wfh_baristaApp.swift */; };
 		616109D929CE722100A4A013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109D829CE722100A4A013 /* ContentView.swift */; };
 		616109DB29CE722600A4A013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616109DA29CE722600A4A013 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6112C8E329D1097200DD7781 /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
+		6112C8E729D10C9E00DD7781 /* CurrentOrdersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrdersDataSource.swift; sourceTree = "<group>"; };
 		616109D329CE722100A4A013 /* wfh-barista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wfh-barista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		616109D629CE722100A4A013 /* wfh_baristaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wfh_baristaApp.swift; sourceTree = "<group>"; };
 		616109D829CE722100A4A013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +75,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6112C8E229D107AB00DD7781 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6112C8E329D1097200DD7781 /* ModeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6112C8E529D10C1300DD7781 /* PatronUseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PatronUseCase;
+			sourceTree = "<group>";
+		};
+		6112C8E629D10C1D00DD7781 /* BaristaUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				6112C8E729D10C9E00DD7781 /* CurrentOrdersDataSource.swift */,
+			);
+			path = BaristaUseCase;
+			sourceTree = "<group>";
+		};
 		616109CA29CE722100A4A013 = {
 			isa = PBXGroup;
 			children = (
@@ -94,7 +121,10 @@
 		616109D529CE722100A4A013 /* wfh-barista */ = {
 			isa = PBXGroup;
 			children = (
+				6112C8E629D10C1D00DD7781 /* BaristaUseCase */,
+				6112C8E529D10C1300DD7781 /* PatronUseCase */,
 				616109D629CE722100A4A013 /* wfh_baristaApp.swift */,
+				6112C8E229D107AB00DD7781 /* Views */,
 				616109D829CE722100A4A013 /* ContentView.swift */,
 				616109DA29CE722600A4A013 /* Assets.xcassets */,
 				616109DC29CE722600A4A013 /* Preview Content */,
@@ -258,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				616109D929CE722100A4A013 /* ContentView.swift in Sources */,
+				6112C8E829D10C9E00DD7781 /* CurrentOrdersDataSource.swift in Sources */,
 				616109D729CE722100A4A013 /* wfh_baristaApp.swift in Sources */,
+				6112C8E429D1097200DD7781 /* ModeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
