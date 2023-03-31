@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		6112C8E429D1097200DD7781 /* ModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112C8E329D1097200DD7781 /* ModeView.swift */; };
 		6112C8E829D10C9E00DD7781 /* CurrentOrdersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112C8E729D10C9E00DD7781 /* CurrentOrdersDataSource.swift */; };
+		6112C8EA29D1114F00DD7781 /* MenuDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6112C8E929D1114F00DD7781 /* MenuDataSource.swift */; };
+		6139F66229D7503600799854 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139F66129D7503600799854 /* MenuItem.swift */; };
 		616109D729CE722100A4A013 /* wfh_baristaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109D629CE722100A4A013 /* wfh_baristaApp.swift */; };
 		616109D929CE722100A4A013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 616109D829CE722100A4A013 /* ContentView.swift */; };
 		616109DB29CE722600A4A013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 616109DA29CE722600A4A013 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 /* Begin PBXFileReference section */
 		6112C8E329D1097200DD7781 /* ModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeView.swift; sourceTree = "<group>"; };
 		6112C8E729D10C9E00DD7781 /* CurrentOrdersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentOrdersDataSource.swift; sourceTree = "<group>"; };
+		6112C8E929D1114F00DD7781 /* MenuDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDataSource.swift; sourceTree = "<group>"; };
+		6139F66129D7503600799854 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		616109D329CE722100A4A013 /* wfh-barista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wfh-barista.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		616109D629CE722100A4A013 /* wfh_baristaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wfh_baristaApp.swift; sourceTree = "<group>"; };
 		616109D829CE722100A4A013 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +90,8 @@
 		6112C8E529D10C1300DD7781 /* PatronUseCase */ = {
 			isa = PBXGroup;
 			children = (
+				6112C8E929D1114F00DD7781 /* MenuDataSource.swift */,
+				6139F66129D7503600799854 /* MenuItem.swift */,
 			);
 			path = PatronUseCase;
 			sourceTree = "<group>";
@@ -288,7 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				616109D929CE722100A4A013 /* ContentView.swift in Sources */,
+				6112C8EA29D1114F00DD7781 /* MenuDataSource.swift in Sources */,
 				6112C8E829D10C9E00DD7781 /* CurrentOrdersDataSource.swift in Sources */,
+				6139F66229D7503600799854 /* MenuItem.swift in Sources */,
 				616109D729CE722100A4A013 /* wfh_baristaApp.swift in Sources */,
 				6112C8E429D1097200DD7781 /* ModeView.swift in Sources */,
 			);

@@ -4,23 +4,66 @@ struct ModeView: View {
     let viewModel: ModeViewModel
     
     var body: some View {
-        VStack {
-            Text(viewModel.greetingText)
-            Button(viewModel.buttonOne.0) {
-                print(viewModel.buttonOne.1())
-            }.buttonStyle(.bordered)
-                .tint(.brown)
-                .cornerRadius(8.0)
-                .padding()
-            Button(viewModel.buttonTwo.0) {
-                print(viewModel.buttonTwo.1())
-            }.buttonStyle(.bordered)
-                .tint(.gray)
-                .cornerRadius(8.0)
-                .padding()
+        NavigationView {
+            VStack {
+                Text(viewModel.greetingText).italic()
+
+                NavigationLink {
+                    BaristaView()
+                } label: {
+                    Text(viewModel.buttonOne.0)
+                }.tint(.brown)
+                    .cornerRadius(8.0)
+                    .padding()
+                    .buttonStyle(.bordered)
+                NavigationLink {
+                    BaristaView()
+                } label: {
+                    Text(viewModel.buttonTwo.0)
+                }.tint(.gray)
+                    .cornerRadius(8.0)
+                    .padding()
+                    .buttonStyle(.bordered)
+                    .navigationBarHidden(true)
+            }
         }
     }
 }
+
+struct BaristaView: View {
+    var body: some View {
+        VStack {
+            NavigationLink {
+                BaristaView2()
+            } label: {
+                Text("BV1")
+            }
+        }
+    }
+}
+
+struct PatronView: View {
+    var body: some View {
+        VStack {
+            NavigationLink {
+                BaristaView2()
+            } label: {
+                Text("Patron View")
+            }
+        }
+    }
+}
+
+struct BaristaView2: View {
+    var body: some View {
+        NavigationView {
+            VStack {
+                Text("☕️☕️")
+            }
+        }
+    }
+}
+
 
 struct ModeView_Previews: PreviewProvider {
     static var previews: some View {
