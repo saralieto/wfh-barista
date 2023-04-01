@@ -31,25 +31,34 @@ struct ModeView: View {
 }
 
 struct BaristaView: View {
+    let drinks = [
+            "Soy Latte",
+            "London Fog",
+            "Bluebery booch"
+        ]
+    
     var body: some View {
-        VStack {
-            NavigationLink {
-                BaristaView2()
-            } label: {
-                Text("BV1")
-            }
+//        NavigationStack { iOS 16+ / xcode 14.2
+        List(drinks, id: \.self) { drink in
+           MenuItemCell()
         }
+//        .navigationDestination(for: String.self, destination: PatronView.init)
+        .navigationTitle("Drinks of the day")
+        //}
     }
 }
 
-struct PatronView: View {
+struct MenuItemCell: View {
     var body: some View {
         VStack {
-            NavigationLink {
-                BaristaView2()
+            Text("NAme")
+            Text("Description")
+            Button {
+                
             } label: {
-                Text("Patron View")
+                Text("(+)")
             }
+
         }
     }
 }
